@@ -5,6 +5,7 @@ Script to copy content like HomeDrive and Known Folders to OneDrive for Business
 Migrating data to OneDrive for Business? You can use third party migration tools for an IT admin led migration, work with Microsoft FastTrack to help you migrate your home drives fore free, but if you have users with content on their workstation that they want to backup/push up to OneDrive for Business this script can help facilitate that. 
 The script can be made available to your end users so they can run locally and copy/sync their content from their HomeDrive or Known Folders (My Documents, Desktop, Pictures, etc.) to their local OneDrive for Business location. 
 
+
 Benefits of doing an end user driven migration using the sync client:   
 1. Decentralized model allows for more data to be migrated and migration traffic is dispersed   
 2. Migrate files up to 15GB 
@@ -25,7 +26,9 @@ Benefits of doing an end user driven migration using the sync client:
 ## Disclaimer
 THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
 
-# How it works
+# How it works 
+![Alt text](https://github.com/alejandr0x0/CopyTo-OneDrive/blob/master/Screenshots/Copyto-Onedrive.png?raw=true "CopyTo-OneDrive")  
+
 ## Script Option 1:  
 This will use Robocopy to copy the contents of the folder selected to the local OneDrive sync folder. The OneDrive sync folder must be in the default location.  
 
