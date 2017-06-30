@@ -1,10 +1,10 @@
-# CopyTo-OneDrive
+#, CopyTo-OneDrive
 ## Summary
 Script to copy content like HomeDrive and Known Folders to OneDrive for Business. 
 
 If you're migrating file shares sitting on a file server running SMB 2.0+ , then I recommend first starting with Microsoft FastTrack. This is a great service benefit that's available as part of your subscription. [Check here for more info.](https://technet.microsoft.com/en-us/library/mt651702.aspx)    
 
-If however you also need to help end users migrate content on their PCs and want an end user driven migration this script can help facilitate that.The script can be made available to your end users so they can run locally and copy/sync their content from their HomeDrive File Share or Known Folders (My Documents, Desktop, Pictures, etc.) to their local OneDrive for Business location.   
+If however you also need to help end users migrate content on their PCs and want an end user driven migration, this script can help facilitate that.The script can be made available to your end users so they can run locally and copy/sync their content from their HomeDrive File Share or Known Folders (My Documents, Desktop, Pictures, etc.) to their local OneDrive for Business location.   
 
 Benefits of doing an end user driven migration using the sync client:   
 1. Decentralized model allows for more data to be migrated and migration traffic is dispersed   
