@@ -21,6 +21,7 @@ Benefits of doing an end user driven migration using the sync client:
 
 ## Pre-requisites
 * Powershell v3+
+
 * OneDrive for Business sync client (OneDrive.exe) needs to be installed and configured. Check here for guidance: https://aka.ms/odsync . Also check out the "Prepare Rollout" section below. 
 
 ## Disclaimer
@@ -44,6 +45,15 @@ This is to undo the redirect of known folders done in step 2.
 
 ## Script Option 5:  
 Exit the script.  
+
+## Want to customize the copy settings?   
+Check the variables region with the script and update those copy settings. Here's a quick look at what those look like:    
+```
+$copysettingExcludeFileTypes = "/xf *.pst" #Example: "/xf *.pst *.bak" 
+$copysettingExcludeLongPaths = "/256"  #Example: "/256" 
+$copysettingExcludeFilesLargerThanXBytes = "/MAX:2000" #Example: "/MAX:2000"
+$copysettingExcludeFilesOlderThan = "/MAXAGE:20170101"  #Example: "/MAXAGE:20170101"
+```  
 
 # Need to do a large scale deployment?  
 ## Prepare the rollout
